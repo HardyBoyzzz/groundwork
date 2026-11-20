@@ -33,6 +33,6 @@ Lead with the size and the one item that drives it, then:
 - **Spec feed** — at-risk behaviors the spec's verification section should cover, ready to paste
 - **Next step** — build directly, write a spec first, split into issues, or add tests for untested neighbors first
 
-Present in chat and offer to save as `impact_<name>.md` per [shared/planning-config.md](../../shared/planning-config.md).
+Present in chat and offer to save as `impact_<name>.md` per [shared/planning-config.md](../shared/planning-config.md).
 
 Done means every touched area is confirmed with a code reference or labeled inferred, and the gaps are listed.

@@ -5,7 +5,7 @@ description: Draft and create GitHub, Linear, or Jira issues from a spec, files,
 
 # Issues
 
-Turn source material into focused, reviewed issues in the user's tracker. Tracker-specific access, commands, and dependency handling live in [references/github.md](references/github.md), [references/linear.md](references/linear.md), and [references/jira.md](references/jira.md) — use the one for the chosen tracker, resolved per [shared/planning-config.md](../../shared/planning-config.md).
+Turn source material into focused, reviewed issues in the user's tracker. Tracker-specific access, commands, and dependency handling live in [references/github.md](references/github.md), [references/linear.md](references/linear.md), and [references/jira.md](references/jira.md) — use the one for the chosen tracker, resolved per [shared/planning-config.md](../shared/planning-config.md).
 
 ## Step 1: Parse the Request
 

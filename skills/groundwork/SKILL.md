@@ -35,5 +35,5 @@ When unsure between two sizes, ask one question that disambiguates ("does this c
 ## Guidelines
 
 - Prefer starting small: the shortest chain that produces a verified outcome wins
-- Artifacts live per [shared/planning-config.md](../../shared/planning-config.md); never overwrite, version the name
+- Artifacts live per [shared/planning-config.md](../shared/planning-config.md); never overwrite, version the name
 - If the user fights the chain, shorten it — the system serves the build, not the reverse

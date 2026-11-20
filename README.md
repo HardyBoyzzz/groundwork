@@ -1,6 +1,6 @@
 # Groundwork
 
-A planning system for Claude Code: eight skills that take you from "I have an idea" to verified, shipped work — through clarity, decisions, structure, and debriefs.
+A planning system for Claude Code and Google Antigravity: eight skills that take you from "I have an idea" to verified, shipped work — through clarity, decisions, structure, and debriefs.
 
 Groundwork exists because agents build fast and plan poorly. These skills make the agent interview you properly, read your code before asking questions, prove every spec is verifiable, and split work into slices it can actually finish — then close the loop with a debrief.
 
@@ -52,35 +52,44 @@ clarify ──→ shape ──→ blueprint ──→ stress-test ──→ back
 
 ## Install
 
-### Option A — script
+Groundwork skills use the open Agent Skills format (`SKILL.md`), so the same files work in Claude Code and Google Antigravity — only the destination folder differs.
+
+### Claude Code
 
 ```bash
-git clone https://github.com/HardyBoyzzz/groundwork.git
+git clone https://github.com/YOUR_USERNAME/groundwork.git
 cd groundwork
-./install.sh        # macOS/Linux
-.\install.ps1       # Windows PowerShell
+./install.sh          # macOS/Linux
+.\install.ps1         # Windows PowerShell
 ```
 
-Both copy `skills/` and `shared/` into `~/.claude/skills/`.
-
-### Option B — paste into Claude Code
-
-Paste this into a Claude Code conversation:
+Or paste into a Claude Code conversation:
 
 ```
-Clone https://github.com/HardyBoyzzz/groundwork, copy the skills/ and
-shared/ folders into ~/.claude/skills, and confirm each skill is installed.
+Clone https://github.com/YOUR_USERNAME/groundwork, copy the skills/ folders
+into ~/.claude/skills, and confirm each skill is installed.
 ```
+
+### Google Antigravity
+
+```bash
+cd groundwork
+./install-antigravity.sh      # macOS/Linux
+.\install-antigravity.ps1     # Windows PowerShell
+```
+
+These copy the skills into `~/.gemini/config/skills` (global, all projects). To scope Groundwork to one project instead, copy `skills/*` into `<project>/.agents/skills/`. Antigravity also offers "Bring over my setup from other Agentic Developer Tools" during onboarding, which can import the skills from your Claude Code setup directly.
 
 ### Verify
 
-Start Claude Code in any project and type `/shape` or say "I have an idea".
+- Claude Code: start a session and type `/shape` or say "I have an idea"
+- Antigravity: run `/skills` to list loaded skills, then try `/groundwork`
 
 ## Repository Layout
 
 ```
 skills/         one folder per skill: SKILL.md + references/
-shared/         planning-config.md — folders, naming, tracker, labels
+                plus shared/planning-config.md — folders, naming, tracker, labels
 examples/       a sample chain: idea → blueprint → backlog item
 docs/           how the system works
 ```

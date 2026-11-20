@@ -20,7 +20,7 @@ For each, cite the spec section and, where relevant, the code it contradicts.
 
 ## Report
 
-Write `spec_review_<name>.md` per [shared/planning-config.md](../../shared/planning-config.md):
+Write `spec_review_<name>.md` per [shared/planning-config.md](../shared/planning-config.md):
 
 - **Verdict** up front: build-ready, build-ready after listed fixes, or needs another pass
 - Findings grouped **Blocker** / **Should fix** / **Nit**, each with the spec section, the problem, and the suggested fix

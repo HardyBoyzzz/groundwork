@@ -21,7 +21,7 @@ decision_*.md → idea_*.md → blueprint/prd → stress_test → backlog → bu
 
 ## Configuration
 
-All skills read `shared/planning-config.md`: planning folder, artifact naming, tracker default, and label taxonomy. Change it once; every skill follows.
+All skills read `skills/shared/planning-config.md`: planning folder, artifact naming, tracker default, and label taxonomy. Change it once; every skill follows.
 
 ## Design Notes
 

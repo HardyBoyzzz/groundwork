@@ -22,7 +22,7 @@ Close the loop after a build: compare intent to outcome, capture lessons, and le
 
 ## Report
 
-Write `debrief_<name>.md` per [shared/planning-config.md](../../shared/planning-config.md):
+Write `debrief_<name>.md` per [shared/planning-config.md](../shared/planning-config.md):
 
 - **Shipped vs. spec** — the delta table with verification status
 - **What went well** — keep doing these

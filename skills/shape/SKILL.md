@@ -22,7 +22,7 @@ Interview the user about an idea, then turn the conversation into an actionable 
 
 ## Output
 
-Write the artifact per [shared/planning-config.md](../../shared/planning-config.md), choosing by size:
+Write the artifact per [shared/planning-config.md](../shared/planning-config.md), choosing by size:
 
 - **Project or large feature** → `idea_<name>.md` using [references/idea-template.md](references/idea-template.md)
 - **Small feature or task** → `task_brief_<name>.md`: only the template's core sections

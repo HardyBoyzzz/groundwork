@@ -31,7 +31,7 @@ Summarize in chat:
 - **The Breakthrough** — the real goal, in one or two sentences, plus the key insight that unlocked it
 - **How to Proceed** — concrete next steps, smallest first
 
-Offer to save `decision_<name>.md` when the decision will shape later work. Record the date, the decision, why, the options considered and why they lost, the reversibility verdict, what would make you revisit it, and next steps. Save per [shared/planning-config.md](../../shared/planning-config.md).
+Offer to save `decision_<name>.md` when the decision will shape later work. Record the date, the decision, why, the options considered and why they lost, the reversibility verdict, what would make you revisit it, and next steps. Save per [shared/planning-config.md](../shared/planning-config.md).
 
 Then recommend a next step: `shape` if the decision is to build something still loosely defined, `blueprint` if it's already clear, or just starting on step one. Continue only when the user says so.
 
