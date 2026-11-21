@@ -19,6 +19,15 @@ From impact findings (if run) or code reading:
 ## Design
 Approach, key decisions, and rejected alternatives with reasons.
 
+## Edge Cases & Error Handling
+- Upstream / API failure modes: ...
+- Missing / invalid data handling: ...
+- User input validation: ...
+
+## Sealed Rabbit Holes
+Deceptively complex directions intentionally avoided:
+- ...
+
 ## Non-Functional Requirements
 | Requirement | Threshold |
 |---|---|

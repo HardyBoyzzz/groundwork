@@ -21,6 +21,23 @@ Explicitly out of scope: ...
 - Data model: <core entities and relationships>
 - Decisions made and why: ...
 
+## Data Flow & Caching Architecture
+- Source & Ingestion Pipeline: <where data originates and how it is fetched>
+- Freshness & Caching Strategy: <ISR, stale-while-revalidate, edge cache, or static fallback>
+- Storage & State Persistence: <client-side state, server cache, database>
+
+## Error Handling & Fallback States
+- Upstream Rate-Limits & Timeouts: <cached snapshot fallback, retry policy, error banner>
+- Missing / Inapplicable Fields: <handling policy, e.g. neutral fallback, placeholder UI>
+- Client Error Boundaries: <graceful UI degradation and recovery>
+
+## Sealed Rabbit Holes
+Deceptively complex traps deliberately avoided:
+- <trap 1 and why it was sealed>
+
+## Trade-Off Decisions
+How the architecture honors the priority order (e.g. Zero Cost > Speed > Polish).
+
 ## Non-Functional Requirements
 | Requirement | Threshold |
 |---|---|
