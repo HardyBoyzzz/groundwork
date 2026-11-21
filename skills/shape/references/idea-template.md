@@ -11,16 +11,35 @@ One or two sentences in the user's own words.
 - Secondary persona: <who>
 - Problem: <what hurts, how badly, how often>
 
-## v1 Scope
+## The Core Loop
+The primary 3-step loop the user completes to realize value:
+1. **Entry:** <where user lands or begins>
+2. **Action:** <core interaction or evaluation>
+3. **Outcome:** <value realized or state saved>
+
+## v1 Scope & Boundaries
 Must do:
 - ...
 
 Explicitly NOT in v1:
 - ...
 
-## Success Criteria
-How we'll know it works:
+Rabbit holes sealed (deceptively complex traps avoided):
 - ...
+
+## Data & State Contract
+- Data source: <free API, DB, mock, scrapers>
+- Freshness & latency expectation: <real-time, 15-min cached, EOD, static>
+- Persistence mechanism: <localStorage, serverless DB, session-only>
+
+## Failure Modes & Edge Cases
+- Upstream failure / rate-limiting policy: <fallback snapshot, cached state, error banner>
+- Missing / N/A data policy: <neutral evaluation, skip indicator, or graceful placeholder>
+- Invalid user input handling: <inline error toast, validation regex, autocomplete>
+
+## Success Criteria & Verification Thresholds
+How we'll know it works:
+- <falsifiable metric or check, e.g. load time threshold, test criteria>
 
 ## Competitive Skim
 | Product | Gets right | Gets wrong |
@@ -33,6 +52,9 @@ How we'll know it works:
 | Problem clarity | | |
 | Differentiation | | |
 | v1 feasibility | | |
+
+## Trade-off Priorities
+Priority order when constraints collide (e.g., Zero Cost > Time to Market > Data Freshness > UI Polish).
 
 ## Constraints & Existing Material
 - Stack preferences, deadlines, budget, integration targets
