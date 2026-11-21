@@ -9,18 +9,23 @@ Build-ready / Build-ready after fixes / Needs another pass — one-line reason.
 1. **[Section]** Problem. → Fix: ...
 
 ## Should Fix
-1. ...
+1. **[Section]** Problem. → Fix: ...
 
 ## Nits
-1. ...
+1. **[Section]** Problem. → Fix: ...
 
 ## Code Grounding
 | Spec claim | Status | Evidence |
 |---|---|---|
 | ... | confirmed / contradicted | file:symbol |
 
-## Coverage
-- Testability: pass/fail with notes
-- Consistency: ...
-- Risk coverage: ...
-- Feasibility: ...
+## Coverage Audit
+- **Testability & Thresholds:** pass/fail with notes
+- **Data Contract & Caching Architecture:** pass/fail with notes
+- **Failure Recovery & Edge Cases:** pass/fail with notes
+- **Sealed Rabbit Holes:** pass/fail with notes
+- **Trade-Off Fidelity:** pass/fail with notes
+- **Consistency & Feasibility:** pass/fail with notes
+
+## Recommended Next Step
+- Next action: ...

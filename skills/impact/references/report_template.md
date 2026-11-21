@@ -9,13 +9,19 @@ Source: <spec, issue, or branch> · Date: <date> · Read-only
 | Area | What | Status |
 |---|---|---|
 | Callers/dependents | ... | confirmed: file:symbol / inferred: reason |
-| Data | ... | ... |
-| Contracts | ... | ... |
+| Data & Schema | ... | ... |
+| Contracts & APIs | ... | ... |
+| Caching & Data Lifecycle | ... | ... |
+| External Quotas / Rate-Limits | ... | ... |
+| Failure Boundaries | ... | ... |
 | Untested neighbors | ... | ... |
 | Outside the repo | ... | ... |
 
-## What Could Break
-- ...each with confirmed/inferred status
+## What Could Break & Failure Risks
+- **Functional breakage:** ...each with confirmed/inferred status
+- **Caching & Stale Data risks:** ...
+- **Rate-limit / Quota risks:** ...
+- **Cascading Failure risks:** ...
 
 ## Rollback Plan
 - Reversible via: ...
