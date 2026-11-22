@@ -1,0 +1,25 @@
+{
+  "id": "T-0001-01",
+  "title": "<Short outcome title>",
+  "story_id": "S-0001-01",
+  "owner": "fullstack-developer",
+  "verifier": "qa-engineer",
+  "depends_on": [],
+  "scope": {
+    "paths": [
+      "src/path/to/component.tsx"
+    ],
+    "conventions": [
+      "Follow existing linting and typing standards"
+    ]
+  },
+  "verification": [
+    {
+      "id": "VC-1",
+      "kind": "command",
+      "covers": ["AC-1"],
+      "command": "npm test",
+      "expect_exit": 0
+    }
+  ]
+}
